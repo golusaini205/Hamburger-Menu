@@ -25,7 +25,7 @@ const Header = () => (
             className="hamburger-icon-button"
             type="button"
             // eslint-disable-next-line react/no-unknown-property
-            testid="hamburgerIconButton"
+            data-testid="hamburgerIconButton"
           >
             <GiHamburgerMenu size="30" />
           </button>
@@ -38,7 +38,7 @@ const Header = () => (
               className="close-button"
               type="button"
               // eslint-disable-next-line react/no-unknown-property
-              testid="closeButton"
+              data-testid="closeButton"
               onClick={() => close()}
             >
               <IoMdClose size="30" color="#616e7c" />
